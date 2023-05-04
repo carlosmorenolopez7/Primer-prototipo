@@ -101,6 +101,22 @@ hr {
     background-color: #666;
 }
 
+button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .contact {
     margin-bottom: 2rem;
 }
