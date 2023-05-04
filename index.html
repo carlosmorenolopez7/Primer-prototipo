@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Inicio</title>
+</head>
+<!--Para acceder a "create.html" o "user.html" escribir en la url los respectivos enlaces manualmente ya
+que no les puse botón por ser zonas para usuarios registrados.-->
+<body>
+    <div class="navegation">
+        <ul>
+            <li><a href="index.html"><img src="logo.jpg"></a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="search.html">Buscar Aves</a></li>
+            <li><a href="game.html">Juego</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="landing-page">
+        <div class="header">
+          <h1>Bienvenido a la web de ornitología</h1>
+        </div>
+        <main>
+          <section class="features">
+            <h2>Características de la página</h2>
+              <p>Ésta página web cuenta con 3 páginas para usuarios públicos(una zona de Búsqueda, una de Juego, 
+                y otra de Login) y otras 2 para usuarios registrados(una de Creacion de aves y otra de Lista de 
+                usuarios, desde la cual solo el administrador puede borrar usuarios)</p>
+            <div class="feature">
+              <img src='lista.png' alt="Feature 1" />
+              <h3>Lista de Aves</h3>
+              <p>En esta página se mostrará una lista de aves, en la cual podrás buscar por nombre, tipo, 
+                y por si es un ave de España o no. También podrás ordenar la lista por nombre, tipo, y si es 
+                de España o no.
+              </p>
+            </div>
+            <div class="feature">
+              <img src='juego.png' alt="Feature 2" />
+              <h3>Juego</h3>
+              <p>En esta página se muestra la imágen de un Ave, del cual tendrás que adivinar su nombre. 
+                Si aciertas, te aparecerá un mensaje de "¡Has acertado!", y si no, te aparecerá un mensaje de 
+                "¡Has fallado!". También podrás ver el número de aciertos y fallos que llevas.
+              </p>
+            </div>
+            <div class="feature">
+              <img src='login.png' alt="Feature 3" />
+              <h3>Login</h3>
+              <p>En esta página se mostraran los 3 menús de sesión de la web, con los cuales podrás registrate en mi web,
+                  iniciar sesión una vez estas registrado, e iniciar sesión con Google.
+                  Para cerrar sesión te aparecera el botón "Cerrar Sesión" en la barra de navegación.
+              </p>
+            </div>
+
+            <div class="feature">
+                <img src='creacion.png' alt="Feature 4" />
+                <h3>Creación de aves</h3>
+                <p>En esta página se mostrará un formulario para crear una nueva ave, en el cual tendrás que rellenar
+                    todos los campos. Una vez rellenado el formulario, te aparecerá un mensaje de "¡Ave creada!".
+                </p>
+            </div>
+            <div class="feature">
+                <img src='usuarios.png' alt="Feature 5" />
+                <h3>Lista de usuarios</h3>
+                <p>En esta página se mostrará una lista de usuarios, en la cual podrás buscar por nombre, email, 
+                    y por si es un usuario administrador o no. También podrás ordenar la lista por nombre, email, 
+                    y si es administrador o no. Además, solo el administrador podrá borrar usuarios.
+                </p>
+            </div>
+          </section>
+          <section class="about">
+            <h2>Sobre nosotros</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto provident laudantium 
+              officiis, nisi animi quo repellendus voluptate unde dignissimos sequi eligendi odit fugit 
+              impedit officia laboriosam nihil temporibus, pariatur facilis!</p>
+            <a href="#" class="button">Aprende más</a>
+          </section>
+          <section class="contact">
+            <h2>Contáctanos</h2>
+            <form>
+              <div>
+                <label htmlFor="name">Nombre:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div>
+                <label htmlFor="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div>
+                <label htmlFor="message">Mensaje:</label><br />
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <a href="#" class="button">Enviar</a>
+            </form>
+          </section>
+        </main>
+        <footer>
+          <p>© 2023 - Todos los derechos reservados</p>
+          <ul>
+            <ul><a href="#"><img src="facebook.png" alt="Facebook" /></a></ul>
+            <ul><a href="#"><img src="twitter.png" alt="Twitter" /></a></ul>
+            <ul><a href="#"><img src="instagram.png" alt="Instagram" /></a></ul>
+          </ul>
+          <p>Desarrollado por Carlos Moreno López - 2023</p>
+          <a href="#"><p>Código disponible en Github <i class="fab fa-github"></i></p></a>
+        </footer>
+      </div>
+</body>
+</html>

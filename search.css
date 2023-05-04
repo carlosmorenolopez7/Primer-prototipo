@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navegation {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navegation ul {
+  list-style: none;
+  display: flex;
+}
+
+.navegation ul li {
+  margin: 0 10px;
+}
+
+.navegation ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navegation ul li a:hover {
+  text-decoration: underline;
+}
+
+.searchbar {
+  margin-top: 30px;
+}
+
+.searchbar input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.searchbar .form-group {
+  margin-bottom: 20px;
+}
+
+.searchbar label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.searchbar select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #333;
+  bottom: 0;
+  font-size: 0.9rem;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}

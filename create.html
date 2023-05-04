@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="create.css">
+    <title>Creacion de Aves</title>
+</head>
+<!--Esta página al ser solo accesible desde una cuenta registrada no aparecen botones para acceder desde la web.
+Escribir en la ruta de la web "create.html"-->
+<body>
+    <div class="navegation">
+        <ul>
+            <li><a href="index.html"><img src="logo.jpg"></a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="search.html">Buscar Aves</a></li>
+            <li><a href="game.html">Juego</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="form-container">
+        <h2>Crear nueva ave</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Ubicación:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+            <div class="form-group">
+                <label for="color">Color:</label>
+                <input type="text" id="color" name="color" required>
+            </div>
+            <div class="form-group">
+                <label for="size">Tamaño:</label>
+                <input type="text" id="size" name="size" required>
+            </div>
+            <div class="form-group">
+                <label for="image">Imagen:</label>
+                <input type="file" id="image" name="image" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Crear Ave</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>© 2023 - Todos los derechos reservados</p>
+        <ul>
+          <li><a href="#"><img src="facebook.png" alt="Facebook" /></a></li>
+          <li><a href="#"><img src="twitter.png" alt="Twitter" /></a></li>
+          <li><a href="#"><img src="instagram.png" alt="Instagram" /></a></li>
+        </ul>
+        <p>Desarrollado por Carlos Moreno López - 2023</p>
+        <a href="#"><p>Código disponible en Github <i class="fab fa-github"></i></p></a>
+    </footer>
+</body>
+</html>

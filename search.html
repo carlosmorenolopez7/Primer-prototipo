@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>Búsqueda</title>
+</head>
+<body>
+    <div class="navegation">
+        <ul>
+            <li><a href="index.html"><img src="logo.jpg"></a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="search.html">Buscar Aves</a></li>
+            <li><a href="game.html">Juego</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="searchbar">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Buscar Ave" class="form-control mb-3"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Filtros</h5>
+                            <div class="form-group">
+                                <label for="filter-location">Ubicación</label>
+                                <select class="form-control" id="filter-location">
+                                    <option>Todas</option>
+                                    <option>América</option>
+                                    <option>Europa</option>
+                                    <option>Asia</option>
+                                    <option>África</option>
+                                    <option>Oceanía</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="filter-color">Color</label>
+                                <select class="form-control" id="filter-color">
+                                    <option>Todos</option>
+                                    <option>Rojo</option>
+                                    <option>Azul</option>
+                                    <option>Amarillo</option>
+                                    <option>Verde</option>
+                                    <option>Marrón</option>
+                                    <option>Negro</option>
+                                    <option>Blanco</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="filter-size">Tamaño</label>
+                                <select class="form-control" id="filter-size">
+                                    <option>Todos</option>
+                                    <option>Pequeño</option>
+                                    <option>Mediano</option>
+                                    <option>Grande</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="bird1.jpg" class="card-img-top" alt="Bird 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Nombre de la ave 1</h5>
+                            <p class="card-text">Descripción de la ave 1</p>
+                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="bird2.jpg" class="card-img-top" alt="Bird 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Nombre de la ave 2</h5>
+                            <p class="card-text">Descripción de la ave 2</p>
+                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="bird3.jpg" class="card-img-top" alt="Bird 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Nombre de la ave 3</h5>
+                            <p class="card-text">Descripción de la ave 3</p>
+                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn mt-5 mb-5">Obtener más</button>
+    </div>
+    <footer>
+        <p>© 2023 - Todos los derechos reservados</p>
+        <ul>
+          <li><a href="#"><img src="facebook.png" alt="Facebook" /></a></li>
+          <li><a href="#"><img src="twitter.png" alt="Twitter" /></a></li>
+          <li><a href="#"><img src="instagram.png" alt="Instagram" /></a></li>
+        </ul>
+        <p>Desarrollado por Carlos Moreno López - 2023</p>
+        <a href="#"><p>Código disponible en Github <i class="fab fa-github"></i></p></a>
+    </footer>
+</body>
+</html>
